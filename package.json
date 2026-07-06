@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test:master": "playwright test --grep @master",
-    "test:regression": "playwright test --grep @regression",
-    "test:sanity": "playwright test --grep @sanity"
+    "test:master": "npx playwright test --grep @master",
+    "test:regression": "npx playwright test --grep @regression",
+    "test:sanity": "npx playwright test --grep @sanity"
   },
   "keywords": [],
   "author": "",
