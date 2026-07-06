@@ -25,7 +25,7 @@ test.afterEach(async ({ page }) => {
     await page.close();
 })
 
-test('User Registration', async () => {
+test('User Registration @master @sanity @regression', async () => {
 
     //Homepage and click on Register
 

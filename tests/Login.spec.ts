@@ -27,7 +27,7 @@ test.afterEach(async({page})=>{
     await page.close();
 })
 
-test('User Login test', async({page})=>{
+test('User Login test @master @sanity @regression', async({page})=>{
 
     //HomePage
     await homepage.clickMyAccount();
